@@ -6,11 +6,4 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <androidx.fragment.app.FragmentContainerView xmlns:tools="http://schemas.android.com/tools"
-        android:id="@+id/overviewFragment"
-        android:name="com.example.geeksforgeeksandroidchallenge.ArticleFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout="@layout/fragment_article" />
-
 </androidx.constraintlayout.widget.ConstraintLayout>
